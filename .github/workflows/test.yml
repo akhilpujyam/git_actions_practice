@@ -1,0 +1,12 @@
+name: Hello World
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-11
+    steps:
+    - name: Say Hello
+      run: echo "Hello World!"
